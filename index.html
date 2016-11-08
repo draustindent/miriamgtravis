@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Miriam G. Travis Memorial</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/master.css" media="screen" title="no title">
+    <script src="https://use.typekit.net/bwl8vsq.js"></script>
+    <script>try{Typekit.load({ async: true });}catch(e){}</script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script type="text/javascript">
+      $(function(){
+        $(".thumbnails img").click(function(){
+          src = $(this).attr("data-desktop");
+          $(".photo img").prop("src", src);
+        });
+      });
+    </script>
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+
+
+    <div class="container">
+      <div class="header col-sm-12">
+        <h1>Miriam Georgina Travis</h1>
+        <h3>May 2nd, 1929 - October 21st, 2016<h3>
+      </div>
+      <div class="left col-sm-7">
+        <div class="photo">
+          <img src="images/photo1.jpg" alt="" />
+        </div>
+        <div class="thumbnails">
+          <img src="images/photo1_thumb.jpg" alt="" data-desktop="images/photo1.jpg"/>
+          <img src="images/photo2_thumb.jpg" alt="" data-desktop="images/photo2.jpg"/>
+          <img src="images/photo3_thumb.jpg" alt="" data-desktop="images/photo3.jpg"/>
+          <img src="images/photo4_thumb.jpg" alt="" data-desktop="images/photo4.jpg"/>
+          <img src="images/photo5_thumb.jpg" alt="" data-desktop="images/photo5.jpg"/>
+        </div>
+      </div>
+      <div class="right col-sm-5">
+        <h3>Memorial Mass</h3>
+        <p>
+          Friday, December 30th<br>
+          10:30 am<br>
+          St. Paschal Baylon Catholic Church<br>
+          155 East Janss Road<br>
+          Thousand Oaks, California 91360<br>
+          (805)-496-0222<br>
+          <a href="http://www.stpaschal.org/">StPaschal.org</a><br>
+          <a href="https://goo.gl/maps/mfHdLt1c6yw">Directions</a>
+        </p>
+        <h3>Luncheon immediately following</h3>
+        <p>
+          Location TBD<br>
+          <a href="mailto:debdent@me.com">RSVP</a>
+        </p>
+      </div>
+      <div class="footer col-sm-12">
+        <h3>In lieu of flowers please make a charitable donation to MEND or The Alzheimers Association</h3>
+        <a class="float-left" href="http://www.mendpoverty.org/"><img src="images/mend.jpg" alt="" /></a>
+        <a class="float-right" href="http://www.alz.org/"><img src="images/alzheimersassociation.gif" alt="" /></a>
+      </div>
+    </div>
+
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>
